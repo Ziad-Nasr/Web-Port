@@ -1,0 +1,46 @@
+.TabBar {
+    background-color: #0f1624;
+    position: absolute;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Name {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+.LetterN {
+    color: orangered;
+}
+
+.Titles {
+    color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Icons {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Icon {
+    width: 27px;
+    height: 27px;
+}
+
+.TopButton {
+    /* background: url("../assets/github.png") no-repeat; */
+    animation-duration: 3s;
+
+}
+.TopButton:hover{
+    /* background: url("../assets/Linkedin.png") no-repeat; */
+    animation-duration: 2s;
+}
