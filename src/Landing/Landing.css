@@ -1,0 +1,41 @@
+.body{
+    background-color: #0f1624;
+    height: 100%;
+    width: 100%;
+}
+.Welcome{
+    justify-content: center;
+    margin-top: 8vh;
+
+}
+.WelcomeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.WelcomeTitle{
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+    /* margin-top: 8vh; */
+    font-size: 64px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.WhiteText{
+    color: white;
+    font-size: 45px;
+}
+.Subtitle{
+    font-size: 18px;
+    color: #929EB0;
+    margin: 0px 0px 0px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* text-align: start; */
+}

@@ -15,8 +15,8 @@ function TabBar() {
                 <p>About me</p>
             </div>
             <div className="Icons">
-                <img src={LinkedIn} alt="LinkedIn" className="Icon"/>
-                <img src={Facebook} alt="LinkedIn" className="Icon"/>
+                <a href="https://www.linkedin.com/in/ziad-nasr-071721260" className="TopButton"> <img src={LinkedIn} alt="LinkedIn" className="Icon"/></a>
+                <a href="https://www.facebook.com/ziad.m.nasr" className="TopButton" ><img src={Facebook} alt="LinkedIn" className="Icon"/></a>
                 <a href="https://github.com/Ziad-Nasr" className="TopButton"><img src={Github} alt="LinkedIn" className="Icon"/></a>
             </div>
         </div>
