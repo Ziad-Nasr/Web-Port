@@ -26,11 +26,9 @@
 }
 .Dust{
     border-radius: 50%;
-    height: 20rem;
-    width: 20rem;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20rem;
     z-index: 0;
     opacity: 0.6;
 }
