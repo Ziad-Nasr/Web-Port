@@ -9,20 +9,20 @@ function Landing() {
     return (
         <div className="body">
             <div className="Welcome">
-            <div className="image-container">
-                <div className="circular-gradient"></div>
-                <img src={Me} alt="My Picture" className="Me"/>
-                <div className="circular-gradient-behind"></div>
-            </div>
                 <div className="WelcomeRight">
                     <div className="Dust">
                         <Dust />
                     </div>
                     <div className="WelcomeText">
-                        <h1 className="WelcomeTitle">Ziad Nasr here, A Software Engineer</h1>
+                        <h1 className="WelcomeTitle">Hello, I am Ziad Nasr<br/> A Software Engineer</h1>
                         <p className="Subtitle"> An Eager Data Scientist and Front-End Maestro</p>
                     </div>
                 </div>
+            <div className="image-container">
+                <div className="circular-gradient"></div>
+                <img src={Me} alt="MyPicture" className="Me"/>
+                <div className="circular-gradient-behind"></div>
+            </div>
             </div>
             <div className="Projects">
                 <AboutMe />
