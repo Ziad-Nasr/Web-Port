@@ -1,0 +1,14 @@
+.duster{
+    background-color: #5f3a8c;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    width: 200px; /* Adjust the size of the circle */
+    height: 200px; /* Adjust the size of the circle */
+    border-radius: 50%;
+    box-shadow: 0 0 55px 55px #5f3a8c; /* Adjust the shadow color and spread */
+    opacity: 0.8;
+    z-index: 0;
+
+}
