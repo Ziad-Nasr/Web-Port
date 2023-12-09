@@ -12,7 +12,7 @@ export default function AboutMe() {
                 <div className="Dust">
                         <Dust />
                     </div>
-                <p>
+                {/* <p>
                 An Enthusiastic senior at Ain Shams University<br/> In the vibrant heart of<span className="Orange"> Cairo, Egypt.</span><br/>
                 My academic journey delves deep into the world of Data Science,<br/>
                 where I unravel the mysteries of <span className="Blue">Machine Learning,</span> Neural Networks,<br/>
@@ -20,7 +20,7 @@ export default function AboutMe() {
                 Beyond the digital landscape, <br/>
                 I navigate the intricate paths of Embedded Systems<br/>
                 and bring ideas to life on the <span className="Orange">Frontend canvas.</span>
-                </p>
+                </p> */}
             </div>
         </div>
     )

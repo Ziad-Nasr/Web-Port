@@ -15,7 +15,7 @@ function Landing() {
                     </div>
                     <div className="WelcomeText">
                         <h1 className="WelcomeTitle">Hello, I am Ziad Nasr<br/> A Software Engineer</h1>
-                        <p className="Subtitle"> Hello, I am Ziad Nasr<br/> A Software Engineer</p>
+                        <p className="Subtitle"> An Eager Data Scientist and Front-End Maestro</p>
                     </div>
                 </div>
             <div className="image-container">
