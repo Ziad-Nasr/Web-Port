@@ -34,6 +34,8 @@
 }
 .WelcomeTitle{
     z-index: 1;
+    /* font-family: "Montserrat"; */
+    font-family: "roboto";
     background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,6 +46,18 @@
     font-size: 64px;
     margin-bottom: 20px;
     font-weight: 100;
+}
+.Subtitle{
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 64px;
+    /* color: rgba(255, 255, 255, 0.501); */
+    background: linear-gradient(270deg, #FFA730 0%, #EF4040 25.67%, #C21292 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 0px 0px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .image-container {
     position: relative;
@@ -87,16 +101,7 @@
     opacity: 0.5;
 }
 
-
 .WhiteText{
     color: white;
     font-size: 45px;
-}
-.Subtitle{
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.501);
-    margin: 0px 0px 0px 0px ;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
