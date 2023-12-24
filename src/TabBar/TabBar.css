@@ -1,46 +1,44 @@
 .TabBar {
-    background-color: #0f1624;
-    position: absolute;
-    width: 100vw;
-    height: 8vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: #0f1624;
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1000;
 }
 
 .Name {
-    color: white;
-    font-weight: 600;
-    font-size: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
 }
 .LetterN {
-    color: orangered;
+  color: orangered;
 }
 
 .Titles {
-    color: white;
-    width: 400px;
-    display: flex;
-    justify-content: space-evenly;
-
+  color: white;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .Icons {
-    width: 125px;
-    display: flex;
-    justify-content: space-between;
-
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
 }
 .Icon {
-    width: 27px;
-    height: 27px;
+  width: 27px;
+  height: 27px;
 }
 
 .TopButton {
-    /* background: url("../assets/github.png") no-repeat; */
-    animation-duration: 3s;
-
+  /* background: url("../assets/github.png") no-repeat; */
+  animation-duration: 3s;
 }
-.TopButton:hover{
-    /* background: url("../assets/Linkedin.png") no-repeat; */
-    animation-duration: 2s;
+.TopButton:hover {
+  /* background: url("../assets/Linkedin.png") no-repeat; */
+  animation-duration: 2s;
 }
